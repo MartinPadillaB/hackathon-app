@@ -5,14 +5,14 @@
 ---
 
 ### 1. Project Initialization & “Hello World” (deployable)
-- [ ] Create new Vite + React + TypeScript project structure (if not already created).
-- [ ] Initialize `package.json` with scripts (`dev`, `build`, `preview`, `test`).
-- [ ] Add basic `.gitignore` (include `node_modules`, build artifacts, env files).
-- [ ] Add minimal `README.md` at repo root with project summary and how to run locally.
-- [ ] Implement a minimal `App` component that renders “Hello Hackathon Project Finder”.
-- [ ] Add a very simple CSS baseline or component library decision (pure CSS, Tailwind, etc.).
-- [ ] **Security**: Ensure no secrets, tokens, or personal data are hardcoded; verify repo is safe to publish.
-- [ ] **Docs**: Document in `README.md` how to install dependencies and run the dev server.
+- [x] Create new Vite + React + TypeScript project structure (if not already created).
+- [x] Initialize `package.json` with scripts (`dev`, `build`, `preview`, `test`).
+- [x] Add basic `.gitignore` (include `node_modules`, build artifacts, env files).
+- [x] Add minimal `README.md` at repo root with project summary and how to run locally.
+- [x] Implement a minimal `App` component that renders “Hello Hackathon Project Finder”.
+- [x] Add a very simple CSS baseline or component library decision (pure CSS, Tailwind, etc.).
+- [x] **Security**: Ensure no secrets, tokens, or personal data are hardcoded; verify repo is safe to publish.
+- [x] **Docs**: Document in `README.md` how to install dependencies and run the dev server.
 
 #### 1.1 Initial deployment pipeline
 - [ ] Choose deployment target (e.g., Vercel, Netlify, GitHub Pages, or similar).
