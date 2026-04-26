@@ -26,14 +26,14 @@
 
 ### 2. Basic UI Skeleton with Mocked Data
 #### 2.1 Layout & routing
-- [ ] Introduce a simple routing structure (e.g., React Router) for:
-  - [ ] `Enter name` screen
-  - [ ] `Project list` screen
-  - [ ] `Project details` screen
-  - [ ] `Propose project` screen
-- [ ] Add a minimal top-level layout (header with app name, main content area).
-- [ ] **Security**: Avoid passing any sensitive parameters via URL; keep only non-sensitive routing state.
-- [ ] **Docs**: Add a short section to `docs/requirements.md` or new `docs/architecture.md` describing the basic screen flow.
+- [x] Introduce a simple routing structure (e.g., React Router) for:
+  - [x] `Enter name` screen
+  - [x] `Project list` screen
+  - [x] `Project details` screen
+  - [x] `Propose project` screen
+- [x] Add a minimal top-level layout (header with app name, main content area).
+- [x] **Security**: Avoid passing any sensitive parameters via URL; keep only non-sensitive routing state.
+- [x] **Docs**: Add a short section to `docs/requirements.md` or new `docs/architecture.md` describing the basic screen flow.
 
 #### 2.2 Mock data models
 - [ ] Create TypeScript interfaces for `User`, `Project`, and `ProjectMembership` (conceptual only).
