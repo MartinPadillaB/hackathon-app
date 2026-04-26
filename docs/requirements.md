@@ -139,6 +139,13 @@ Project details show:
 3. `Project details` screen
 4. `Propose project` screen/form
 
+### Basic screen flow (implemented skeleton)
+- Default route redirects to `Enter name`.
+- `Enter name` is the entry point for starting a local-only session.
+- Users can navigate to `Project list`, then open `Project details` using a non-sensitive `projectId` route segment.
+- `Propose project` is available as a separate screen from top navigation.
+- Route paths intentionally avoid any sensitive data; only non-sensitive routing state (like project identifiers) appears in the URL.
+
 ### UI behavior
 - Project list must reflect “full vs joinable” state accurately.
 - If a user switches projects:

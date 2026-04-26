@@ -15,12 +15,12 @@
 - [x] **Docs**: Document in `README.md` how to install dependencies and run the dev server.
 
 #### 1.1 Initial deployment pipeline
-- [ ] Choose deployment target (e.g., Vercel, Netlify, GitHub Pages, or similar).
-- [ ] Add a simple CI workflow to build the app on every push (e.g., GitHub Actions with `npm install` + `npm run build`).
-- [ ] Configure deployment from main branch (or chosen branch) after successful CI build.
-- [ ] Verify deployed “Hello World” page is reachable.
-- [ ] **Security**: Confirm deployed output exposes no environment variables or sensitive information.
-- [ ] **Docs**: Add a short “Deployment” section to `README.md` (how it’s deployed, where to see it).
+- [x] Choose deployment target (e.g., Vercel, Netlify, GitHub Pages, or similar).
+- [x] Add a simple CI workflow to build the app on every push (e.g., GitHub Actions with `npm install` + `npm run build`).
+- [x] Configure deployment from main branch (or chosen branch) after successful CI build.
+- [x] Verify deployed “Hello World” page is reachable.
+- [x] **Security**: Confirm deployed output exposes no environment variables or sensitive information.
+- [x] **Docs**: Add a short “Deployment” section to `README.md` (how it’s deployed, where to see it).
 
 ---
 

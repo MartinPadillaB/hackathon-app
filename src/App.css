@@ -1,11 +1,59 @@
-.app {
-  display: flex;
-  flex-direction: column;
+.app-shell {
+  width: min(100%, 64rem);
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.app-header {
+  display: grid;
   gap: 0.75rem;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 40rem;
-  padding: 2rem;
-  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.app-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.app-header a {
+  text-decoration: none;
+  color: #0f172a;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  background: #e2e8f0;
+}
+
+.app-main {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+
+.screen {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.screen h2,
+.screen p {
+  margin: 0;
+}
+
+.screen code {
+  width: fit-content;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  background: #f1f5f9;
 }
